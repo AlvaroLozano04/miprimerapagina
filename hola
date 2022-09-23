@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Mi primera página</title>
+    <style>
+        #titulo1{
+            font-size: 43px;
+
+        }
+        .titulogrande{
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body onload="alert('hola que tal')">
+    <h1 id= "titulo1" >Titulo 1</h1>
+    <p id="parrafo1" title="HOLA">Parrafo 1</p>
+    <h1 id="titulo2"class="titulogrande">Titulo 2</h1>
+    <p id="parrafo2">Parrafo 2</p>
+    <h1 id="titulo3"class="titulogrande">Titulo 3</h1>
+    <p id="parrafo3" style=" background-color: brown;" onclick="alert('hola que tal')">Parrafo 3</p>
+    
+</body>
+</html>
